@@ -1,0 +1,19 @@
+ body {
+    background-color: #EEEEEE;
+}
+
+.school-wise {
+    display: flex;
+}
+
+.single-school {
+    margin: 0 30px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.img{
+    width: 50%;
+}
