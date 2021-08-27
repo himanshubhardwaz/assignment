@@ -1,0 +1,53 @@
+bpdy {
+    margin: 0;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.block-level-element {
+    margin-top: 60px;
+    background-color: cyan;
+    padding: 2rem;
+    border: 3px solid blue;
+}
+
+.img {
+    max-width: 50%;
+}
+
+.positioned {
+    position: absolute;
+     background-color: cyan;
+    padding: 2rem;
+    border: 3px solid blue;
+}
+
+.margin-top {
+    background-color: cyan;
+    margin-top: 150px;
+    padding: 2rem;
+    border: 3px solid blue;
+}
+
+.inline-p {
+    padding: 2rem;
+    margin-bottom: -1rem;
+}
+
+.inline-p > span {
+    background-color: red;
+    padding: 0.2rem;
+}
+
+.para-image {
+    background-color: cyan;
+    border: 3px solid blue; 
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
