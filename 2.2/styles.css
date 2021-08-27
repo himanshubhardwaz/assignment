@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+}
+
+.dropdown-menu{
+    margin: 0 auto;
+    align-items: center;
+    align-content: space-around;
+    display: flex;
+    background-color: #F0E5CF;
+    justify-content: space-between;
+}
+
+nav{
+    height: 60px;
+    background: #F0E5CF;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+
+.dropdown-menu h1 {
+    padding-left: 20px;
+    color: black;
+}
+
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li {
+    background: #F0E5CF;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 15px;
+    color: black;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    
+    background: #C8C6C6;  
+    font-weight: 600;
+    color: black;  
+}
+
+nav ul ul {
+    position: absolute;
+    top: 60px; 
+    display: none;
+}
+
+nav ul li:hover > ul {
+    display: block; 
+}
+
+nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+nav ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 150px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+
+
